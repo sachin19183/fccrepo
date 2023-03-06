@@ -15,6 +15,7 @@ var ( //syntax for declaring a block of variables
 func main() {
 	fmt.Println("Hello GO!!!")
 	//var declaration formats
+	fmt.Println(" test commit")
 	fmt.Println(" Here i declared at pacakage level will be printed:", i)
 	var i int // this is block scoped .not visible outside this block
 	i = 1
